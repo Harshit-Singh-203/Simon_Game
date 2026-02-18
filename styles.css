@@ -52,3 +52,9 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+  }
