@@ -68,7 +68,7 @@ function newSequence()
         setTimeout(function () {
         $("body").removeClass("game-over");
       }, 1000);
-       $("h1").text("Game Over, Press a key or start to Restart");
+       $("h1").html("Game Over, <br> Level Reached: "+level+"<br> Restart");
        //Start over
            gamePattern=[];
            userClickPattern=[];
